@@ -44,6 +44,7 @@ hr {
     background: none;
     transition: all 0.5s linear;
     color: var(--purple);
+    cursor: pointer;
 }
 .btn1:hover{
     color: var(--cream);
@@ -249,8 +250,12 @@ h1 {
     border: 1px solid var(--purple);
     border-radius: 5px;
     margin: 20px 10px;
+    transition: all 0.5s;
 }
 
+.card-one:hover{
+    transform: translateY(-2px);
+}
 .card-one:last-child {
     margin-right: 0;
 }
